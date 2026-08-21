@@ -12,5 +12,5 @@ variable "region" {
 variable "bucket_environments" {
   description = "One bucket gets created per entry. Distinct from the single-value \"environment\" variable in 004/005 — this one is a list."
   type        = set(string)
-  default     = ["dev", "staging", "prod"]
+  default     = ["dev", "staging", "prod", "brad"]
 }
